@@ -1,0 +1,27 @@
+div{
+    color: white;
+    background-color: rgb(18, 207, 56);
+    font-weight: 800;
+    width: 360px;
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 5px;
+}
+.myclass{
+    color: white;
+    background-color: brown;
+    font-weight: 800;
+    width: 260px;
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 5px;
+}
+#div1{
+    color: white;
+    background-color: blue;
+    font-weight: 800;
+    width: 150px;
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 5px;
+}

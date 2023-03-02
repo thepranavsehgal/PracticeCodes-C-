@@ -1,0 +1,4 @@
+-Positions
+    - Relative: apni current position nahi leave krega aur us position ke respect mei move krega
+    - Absolute
+    - Fixed

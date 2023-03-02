@@ -1,0 +1,52 @@
+h1{
+    color: red
+}
+
+h2{
+    color:rgb(125, 100, 250)
+}
+
+h5{
+    font-size: 45px;
+    color: blue;
+}
+
+p{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 100;
+    border: 5px solid black; 
+    font-family: 'Times New Roman', Times, serif;
+    /* margin: 20px; */
+    /* margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 10px; */
+    /* margin: 10px 60px; */
+    /* margin: top/bottom left/right */
+    margin:5px 80px 40px 10px ;
+    
+    /* font-family: 'Times New Roman', Times, serif; */
+   
+}
+
+/* Descendents Selectors */
+em{
+    color: aqua;
+}
+p span{
+    background-color:antiquewhite;
+}
+p span em{
+    background-color: black;
+    color:brown;
+}
+
+h6{
+    font-size: 36px;
+}
+li{
+    font-size: 25px;
+    color: teal;
+
+}

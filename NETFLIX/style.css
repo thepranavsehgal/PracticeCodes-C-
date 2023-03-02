@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+.categoryItem{
+    border: 2px solid black;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.NetFlix-NavItems-Categories{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    margin-top: 25px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.NetFlix-NavBar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.container{
+    background-color: black;
+    color: white;
+}
+
+.SearchIcon{
+    background-color: black;
+}
+
+.ListOfMovies-Items{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: stretch;
+    align-content: center;
+}
+
+.Items{
+    width: 122px;
+    height: 122px;
+    margin: 12px;
+    background-color: red;
+}

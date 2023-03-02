@@ -1,0 +1,32 @@
+/* lvha */
+/* l:link */
+/* v:visited */
+/* h:hover */
+/* a:active */
+
+a:link{
+    text-decoration: none;
+    color: palevioletred;
+}
+
+a:visited{
+    color: palevioletred;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+a:active{
+    background-color: rgb(15, 165, 53);
+}
+
+a+a{
+    border-left: 1px solid blanchedalmond;
+}
+
+a{
+    margin-left: 5px;
+    padding: 5px;
+}

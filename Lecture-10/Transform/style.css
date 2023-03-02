@@ -1,0 +1,16 @@
+.div{
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    margin: 150px auto;
+    transition-timing-function: cubic-beizier(1,-0.28,0,1.14);
+    transition-duration: 3s;
+}
+
+.div:hover{
+    background-color: blueviolet;
+    transform: rotatez(180deg);
+    transform: rotateZ(900deg) scale(2);
+    transition-timing-function: ease-in;
+}

@@ -1,0 +1,12 @@
+/* To apply to general all every div sibling */
+div>p{
+    color: indigo;
+}
+/* To apply to just next sibling */
+/* li+li{
+    color: orangered;
+} */
+/* To apply to all siblings */
+li~li{
+    color: orangered;
+}

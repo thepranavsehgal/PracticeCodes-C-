@@ -1,0 +1,36 @@
+.div{
+    border: 2px solid black;
+}
+.side-a,
+.side-b{
+    /* border: 2px solid black; */
+    margin: 10px;
+}
+
+.chritmas-image{
+    width: 100%;
+}
+.side-a,
+.side-b{
+    min-height: 50px;
+}
+
+.side-a{
+    width: 30%;
+    float: left;
+}
+
+.side-b{
+    float: right;
+    width: 60%;
+}
+/* to not overlap the parent */
+.clearfix{
+    clear: both;
+}
+/* another way of clearfix or to overlap the parent */
+.div::after{
+    content: "";
+    display: table;
+    clear: both;
+}

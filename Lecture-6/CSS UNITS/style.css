@@ -1,0 +1,22 @@
+h1{
+    font-size: 48px;
+}
+
+.sam{
+    font-size: 20px;
+}
+/* em does the snow-ball effect */
+li{
+    font-size: 3em;
+}
+/* .sam{
+    font-size: 10px;
+}
+li{
+    font-size: 4rem;
+}
+div{
+    width: 50vw;
+    height: 50vw;
+    background-color: antiquewhite;
+} */

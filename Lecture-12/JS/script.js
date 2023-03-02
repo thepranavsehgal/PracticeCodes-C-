@@ -1,0 +1,68 @@
+// var a=5;
+// var b = "hello";
+// var c = true;
+// by default its var
+// d = 10.11;
+// const e ="Hello world";
+
+// to print
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+// console.log(e);
+
+
+// let x={
+//     a:10115,
+//     b:"hello",
+//     c:true
+// }
+
+// console.log(x.a);
+// console.log(x.b);
+// console.log(x.c);
+
+
+let obj = {
+    '': 'Empty String',
+    ' ':'Space',
+    a: 10
+};
+
+console.log(obj['']);
+console.log(obj[' ']);
+console.log(obj['a']);
+
+let arr=[
+    "Hello",1,2,3,"World",true
+];
+arr.push(3214);
+console.log(arr);
+arr.pop();
+arr.unshift("sfcdt");
+console.log(arr);
+
+arr.shift();
+console.log(arr);
+
+arr[10]="some value";
+console.log(arr);
+
+for(let i=0;i<arr.length;i++){
+    console.log(arr[i]);
+};
+
+let obj1={
+    x:'Empty String',
+    y:'Space',
+    z:10
+};
+for(let i in obj1){
+    console.log(obj1[i])
+}
+
+let str="Coding Blocks";
+for(let c of str){
+    console.log(c);
+}
